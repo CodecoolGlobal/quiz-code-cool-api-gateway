@@ -31,13 +31,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .authorizeRequests()
                 .antMatchers("/auth/**").permitAll() // allowed by anyone
-                .antMatchers(HttpMethod.GET, "/categories").authenticated() // allowed only when signed in
-                .antMatchers("/customquizzes/**").authenticated() // allowed only when signed in
-                .antMatchers(HttpMethod.GET, "/questions/**").authenticated() // allowed only when signed in
-                .antMatchers(HttpMethod.POST, "/questions/add").authenticated() // allowed only when signed in
-                .antMatchers(HttpMethod.PUT, "/questions/**").hasAuthority("ROLE_ADMIN") // allowed only when signed in
-                .antMatchers(HttpMethod.DELETE, "/questions/**").hasAuthority("ROLE_ADMIN") // allowed only when signed in
-                .antMatchers("/types/**").authenticated() // allowed only when signed in
+                .antMatchers(HttpMethod.GET, "/quiz-service/categories").authenticated() // allowed only when signed in
+                .antMatchers("/quiz-service/customquizzes/**").authenticated() // allowed only when signed in
+                .antMatchers(HttpMethod.GET, "/quiz-service/questions/**").authenticated() // allowed only when signed in
+                .antMatchers(HttpMethod.POST, "/quiz-service/questions/add").authenticated() // allowed only when signed in
+                .antMatchers(HttpMethod.PUT, "/quiz-service/questions/**").hasAuthority("ROLE_ADMIN") // allowed only when signed in
+                .antMatchers(HttpMethod.DELETE, "/quiz-service/questions/**").hasAuthority("ROLE_ADMIN") // allowed only when signed in
+                .antMatchers("/quiz-service/types/**").authenticated() // allowed only when signed in
                 .anyRequest().denyAll() // anything else is denied
                 // NEW PART:
                 .and()
