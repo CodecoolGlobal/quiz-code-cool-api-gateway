@@ -10,7 +10,6 @@ import javax.annotation.PostConstruct;
 import java.time.LocalDate;
 
 @Service
-@Profile("production")
 public class Initializer {
 
     @Autowired
