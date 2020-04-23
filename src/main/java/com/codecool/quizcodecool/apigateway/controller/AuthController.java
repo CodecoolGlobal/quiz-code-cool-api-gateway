@@ -82,8 +82,7 @@ public class AuthController {
     private void addTokenToCookie(HttpServletResponse response, String token) {
         ResponseCookie cookie = ResponseCookie.from("token", token)
                 .domain(cookiedomain) // should be parameterized
-                .sameSite("None")
-//                .sameSite("Strict")  // CSRF
+                .sameSite("Strict")  // CSRF
 //                .secure(true)
                 .maxAge(Duration.ofHours(cookieMaxAgeMinutes / 60))
                 .httpOnly(true)      // XSS

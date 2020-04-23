@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.afeba58d.chunk.css",
+    "main.js": "/static/js/main.5eb5bf07.chunk.js",
+    "main.js.map": "/static/js/main.5eb5bf07.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.01593cbd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.01593cbd.js.map",
+    "static/js/2.74dfeabc.chunk.js": "/static/js/2.74dfeabc.chunk.js",
+    "static/js/2.74dfeabc.chunk.js.map": "/static/js/2.74dfeabc.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.acf1cedf08a286c3635a7f3e6352d16c.js": "/precache-manifest.acf1cedf08a286c3635a7f3e6352d16c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.afeba58d.chunk.css.map": "/static/css/main.afeba58d.chunk.css.map",
+    "static/js/2.74dfeabc.chunk.js.LICENSE.txt": "/static/js/2.74dfeabc.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/background.6c8d4e10.jpeg",
+    "static/media/ideas.png": "/static/media/ideas.273461fa.png",
+    "static/media/menu-button.png": "/static/media/menu-button.7480c64d.png",
+    "static/media/question-mark.png": "/static/media/question-mark.e8f189c4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01593cbd.js",
+    "static/js/2.74dfeabc.chunk.js",
+    "static/css/main.afeba58d.chunk.css",
+    "static/js/main.5eb5bf07.chunk.js"
+  ]
+}

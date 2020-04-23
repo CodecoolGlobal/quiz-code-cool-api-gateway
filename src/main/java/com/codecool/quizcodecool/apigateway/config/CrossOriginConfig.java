@@ -9,7 +9,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class CrossOriginConfig {
 
-    @Value("${config.allowed.origins}")
+    @Value("${cookie.domain}")
     private String allowedOrigin;
 
     @Bean
